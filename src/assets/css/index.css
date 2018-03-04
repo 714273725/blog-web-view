@@ -1,0 +1,76 @@
+.right_menu_container {
+  width: 50%;
+  display: inline-block;
+  height: 100%;
+  float: right;
+}
+.bg{
+  background-image: url("../../../src/assets/static/itembg.png");
+  background-size: 100% 100%;
+}
+.right_menu_search {
+  width: 40%;
+  margin-top: 3%;
+  vertical-align:top;
+  height: 100%;
+  padding: 0;
+  display: inline-block;
+}
+
+.right_menu_nick_container {
+  width: 30%;
+  height: 100%;
+  margin-top: 3%;
+  vertical-align:top;
+  display: inline-block;
+  margin-left: 2%;
+  text-overflow: ellipsis;
+  float: top;
+}
+
+.right_menu_nick {
+  vertical-align: middle;
+  text-overflow: ellipsis;
+  display: block;
+  overflow: hidden;
+  color: white;
+  word-break: keep-all;
+  white-space: nowrap;
+  width: 100%
+}
+
+.right_menu_icon {
+  float: right;
+  width: 20%;
+  margin-top: 3%;
+  margin-right: 4%;
+  display: inline-block;
+
+}
+
+form .search-input {
+  padding: 0 40px 0 20px;
+  width: 70%;
+  height: 20%;
+  font-size: 14px;
+  border: 1px solid #eee;
+  border-radius: 40px;
+  background: #eee;
+  transition: width .5s;
+  -moz-transition: width .5s;
+  -webkit-transition: width .5s;
+  -o-transition: width .5s;
+  transition-delay: .1s;
+  -moz-transition-delay: .1s;
+  -webkit-transition-delay: .1s;
+  -o-transition-delay: .1s
+}
+
+form .search-input:focus {
+  transition-delay: 0s;
+  -moz-transition-delay: 0s;
+  -webkit-transition-delay: 0s;
+  -o-transition-delay: 0s;
+  width: 100%;
+  outline: none
+}

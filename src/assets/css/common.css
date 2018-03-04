@@ -1,0 +1,25 @@
+
+body.no_margin {
+  margin: 0;
+}
+
+img.head_bg {
+  width: 100% !important;
+}
+
+div.menu {
+  height: 160px;
+  z-index: 1000;
+}
+
+div.head {
+  z-index: -1;
+}
+
+table.menu td {
+
+}
+
+a.font {
+  color: wheat !important;
+}
