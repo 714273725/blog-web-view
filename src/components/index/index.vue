@@ -1,7 +1,7 @@
 <template>
   <body style="margin-top: 0" class="container">
   <!--顶部菜单-->
-  <div class="menu fixed-top container">
+  <!--<div class="menu fixed-top container">
     <nav style="width: 50%;display: inline-block;"
          class="navbar navbar-expand-md bg-transparent navbar-dark">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -42,7 +42,7 @@
       <img class="right_menu_icon"
            src="@/assets/static/head_holder.png"/>
     </div>
-  </div>
+  </div>-->
   <div class="position-relative">
     <img class="head_bg  position-absolute container" src="@/assets/static/bg.jpg"/>
     <div class="position-absolute container" style="padding-top: 10%;">

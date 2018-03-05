@@ -13,7 +13,7 @@
   /*去掉顶部(四边)留白*/
   body {
     margin: 0;
-    background-color: #1b1e21;
+    background-color: #DAC3C1;
    /* background-image: url("../src/assets/static/head_bg.png");
     background-repeat-x: no-repeat;
     background-repeat-y: no-repeat;

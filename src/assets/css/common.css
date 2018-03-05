@@ -1,3 +1,4 @@
+@import "bootstrap.min.css";
 
 body.no_margin {
   margin: 0;
@@ -23,3 +24,22 @@ table.menu td {
 a.font {
   color: wheat !important;
 }
+
+/*内容宽度为窗口的70%，居中*/
+.wrapWidth, .b_container {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.wrapWidth {
+  padding: 0;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gravity_center_h{
+  margin: auto;
+}
+
+
