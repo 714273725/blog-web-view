@@ -23,7 +23,7 @@
             <a class="nav-link font" href="#">关于</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link font" href="#">登录</a>
+            <a class="nav-link font" href="/login">登录</a>
           </li>
         </ul>
       </div>
@@ -37,20 +37,19 @@
       <div class="right_menu_nick_container">
         <span class="right_menu_nick">我是一只小白猪</span>
       </div>
-      <img class="right_menu_icon" src="@/assets/static/holder.jpg" style="border-radius:50%"/>
+      <img class="right_menu_icon" src="@/image/holder.jpg" style="border-radius:50%"/>
       <!-- src="@/assets/static/head_holder.png"-->
     </div>
   </div>
 </template>
 
 <script>
-    export default {
-        name: "nav_menu"
-    }
+  export default {
+    name: "nav_menu"
+  }
 </script>
 
 <style scoped>
-  @import '../../../../assets/css/common.css';
-  @import '../../../../assets/css/index.css';
-  @import "../../../../assets/css/bootstrap.min.css";
+  @import '~zcs/common.css';
+  @import '~zcs/index.css';
 </style>

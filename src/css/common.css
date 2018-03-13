@@ -1,5 +1,3 @@
-@import "bootstrap.min.css";
-
 body.no_margin {
   margin: 0;
 }
@@ -40,6 +38,10 @@ a.font {
 
 .gravity_center_h{
   margin: auto;
+}
+
+.test{
+  background: greenyellow;
 }
 
 

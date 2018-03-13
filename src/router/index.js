@@ -3,16 +3,20 @@ import Router from 'vue-router'
 import index from '@/components/index/index'
 import error404 from '@/components/error/404'
 import user from '@/components/user/user_page'
+import login from '@/components/user/login_page'
+import register from '@/components/user/register_page'
+import register_success from '@/components/user/register_success'
 import BootstrapVue from 'bootstrap-vue'
 
-Vue.use(Router)
 Vue.use(BootstrapVue)
+Vue.use(Router)
 
 export default new Router({
   mode: 'history',
   routes: [
     {
-      path: "/", name: 'index',
+      path: "/",
+      name: 'index',
       component: index
     },
     {
@@ -23,6 +27,18 @@ export default new Router({
       path: '/user',
       name: 'user_page',
       component: user
+    }, {
+      path: '/login',
+      name: 'login_page',
+      component: login
+    }, {
+      path: '/register',
+      name: 'register_page',
+      component: register
+    }, {
+      path: '/reg_success',
+      name: 'register_success_page',
+      component: register_success
     },
     {path: '*', component: error404}
   ]

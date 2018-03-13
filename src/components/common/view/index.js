@@ -1,11 +1,13 @@
 import * as nav_menu from './navmenu'
 import * as test from './test'
 import * as profile from './profile'
+import * as artitem from './profile'
 // ----- 2
 const components = {
   ...nav_menu,
   ...test,
-  ...profile
+  ...profile,
+  ...artitem
 }
 // ----- 3
 const install = function (Vue, Option) {
