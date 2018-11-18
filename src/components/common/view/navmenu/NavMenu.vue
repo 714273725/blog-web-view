@@ -22,8 +22,11 @@
           <li class="nav-item">
             <a class="nav-link font" href="#">关于</a>
           </li>
-          <li class="nav-item">
+          <li v-if="login" class="nav-item">
             <a class="nav-link font" href="/login">登录</a>
+          </li>
+          <li v-else class="nav-item">
+            <a class="nav-link font" href="/login">退出</a>
           </li>
         </ul>
       </div>
@@ -45,7 +48,10 @@
 
 <script>
   export default {
-    name: "nav_menu"
+    name: "nav_menu",
+    data: {
+      login: window.localStorage.getItem("token") != null || window.localStorage.getItem("token").length > 0
+    }
   }
 </script>
 

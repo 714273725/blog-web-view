@@ -58,7 +58,7 @@
 </template>
 
 <script>
-  //import {login} from '@/js/login_page.js'
+ import {login} from '@/js/login_page.js'
   export default {
     name: "login_page",
     mounted() {

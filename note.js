@@ -11,6 +11,9 @@
 //@import '~bootstrap-vue/dist/bootstrap-vue.css';
 //npm i bootstrap-vue
 
+//一个Markdown Editor
+//npm install mavon-editor --save
+
 
 
 

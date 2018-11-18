@@ -1,0 +1,15 @@
+@media screen and (min-width: 500px) {
+  .container {
+    background: #34ce57;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .container {
+    background: #0062cc;
+  }
+}
+
+.container {
+
+}

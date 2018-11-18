@@ -1,27 +1,25 @@
 <template>
   <body>
   <div>
-    <el-button>默认按钮</el-button>
-    <el-button type="primary">主要按钮</el-button>
-    <el-button type="text">文字按钮</el-button>
-    <el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal" @select="handleSelect">
-      <el-menu-item index="1">处理中心</el-menu-item>
-      <el-menu-item index="1">处理中心</el-menu-item>
-      <el-menu-item index="1">处理中心</el-menu-item>
-      <el-menu-item index="1">处理中心</el-menu-item>
-      <el-menu-item index="1">处理中心</el-menu-item>
-      <el-menu-item index="1">处理中心</el-menu-item>
-      <el-menu-item index="1">处理中心</el-menu-item>
-    </el-menu>
+    <div>
+      <title-with-search :defaultMsg=defaultMsg :config=config ref="ue"></title-with-search>
+    </div>
   </div>
   </body>
 </template>
 
 <script>
   import ElMenu from "element-ui/packages/menu/src/menu";
+  import ElContainer from "element-ui/packages/container/src/main";
+  import ElHeader from "element-ui/packages/header/src/main";
+  import TitleWithSearch from "../common/view/navmenu/TitleWithSearch";
 
   export default {
-    components: {ElMenu},
+    components: {
+      TitleWithSearch,
+      ElHeader,
+      ElContainer,
+      ElMenu},
     name: "index"
   }
 </script>

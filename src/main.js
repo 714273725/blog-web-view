@@ -7,7 +7,14 @@ import viewPlugin from './components/common/view'
 import particles from 'particles.js'
 import ElementUI from 'element-ui'
 import BootstrapVue from 'bootstrap-vue'
-
+import '../static/UE/ueditor.config.js'
+import '../static/UE/ueditor.all.min.js'
+import '../static/UE/lang/zh-cn/zh-cn.js'
+import '../static/UE/ueditor.parse.min.js'
+import Editor from 'mavon-editor'
+import 'mavon-editor/dist/css/index.css'
+// use
+Vue.use(Editor)
 Vue.use(BootstrapVue)
 Vue.use(viewPlugin)
 Vue.use(particles)

@@ -1,5 +1,6 @@
 import axios from 'axios'
 import crypto from 'crypto'
+
 export function login(account, password) {
   if (account == null || account.length == 0) {
     window.alert("登录账号不能为空");
@@ -20,6 +21,10 @@ export function login(account, password) {
   }).then(function (response) {
     console.log(response);
     if (response.status == 200 && response.data.code == 200) {
+      //document.cookie="userId=828; userName=hulk";
+      window.localStorage.setItem("token", response.data.date)
+      var data = response.data;
+      window.alert(data.data.token);
       window.location.href = '/user';
     } else {
       window.alert(response.data.message);
