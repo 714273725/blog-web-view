@@ -1,3 +1,6 @@
+
+//启动 npm run dev
+//退出 ctrl+c
 //vue 移动端ui框架 http://mint-ui.github.io/#!/zh-cn
 //npm install mint-ui -S
 
