@@ -50,7 +50,7 @@
   export default {
     name: "nav_menu",
     data: {
-      login: window.localStorage.getItem("token") != null || window.localStorage.getItem("token").length > 0
+      login: window.localStorage.getItem("token") != null && window.localStorage.getItem("token").length > 0
     }
   }
 </script>
