@@ -6,6 +6,7 @@ import user from '@/components/user/user_page'
 import login from '@/components/user/login_page'
 import register from '@/components/user/register_page'
 import register_success from '@/components/user/register_success'
+import edit from '@/components/edit/edit_issue_page'
 import BootstrapVue from 'bootstrap-vue'
 
 Vue.use(BootstrapVue)
@@ -39,6 +40,11 @@ export default new Router({
       path: '/reg_success',
       name: 'register_success_page',
       component: register_success
+    },
+    {
+      path: '/edit',
+      name: 'edit_issue_page',
+      component: edit
     },
     {path: '*', component: error404}
   ]
